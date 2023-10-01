@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Section 1.1 - Variables &amp; Constants'/>
+        <page name='Section 1.2 - String Manipulation'/>
+        <page name='Section 1.3 - Arithmetic Operators'/>
+        <page name='Section 1.4 - Conditionals'/>
+        <page name='Section 1.5 - Loops'/>
+        <page name='Secion 1.6 - Functions'/>
+    </pages>
+</playground>
