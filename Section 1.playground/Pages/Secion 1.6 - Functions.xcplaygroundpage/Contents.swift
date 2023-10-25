@@ -37,18 +37,8 @@ let result = add(a: 5, b: 3)
 print("The sum is \(result)")
 // Output: The sum is 8
 
-// 5. Function Parameter Labels
-// You can use external and internal parameter labels.
 
-func divide(dividend a: Double, by divisor b: Double) -> Double {
-    return a / b
-}
-
-let quotient = divide(dividend: 10, by: 2)
-print("The quotient is \(quotient)")
-// Output: The quotient is 5.0
-
-// 6. Default Parameter Values
+// 5. Default Parameter Values
 // You can provide default values for function parameters.
 
 func greetDefault(name: String = "Guest") {
@@ -60,7 +50,7 @@ greetDefault(name: "Bob")
 // Output: Hello, Guest!
 //         Hello, Bob!
 
-// 7. Variadic Parameters
+// 6. Variadic Parameters
 // Functions can accept a variable number of parameters using "..." notation.
 
 func average(numbers: Double...) -> Double {
@@ -75,7 +65,7 @@ let avg = average(numbers: 2.0, 3.5, 5.0)
 print("The average is \(avg)")
 // Output: The average is 3.5
 
-// 8. In-Out Parameters
+// 7. In-Out Parameters
 // You can modify function parameters in-place using "inout" keyword.
 
 func doubleInPlace(number: inout Int) {
@@ -87,7 +77,7 @@ doubleInPlace(number: &someNumber)
 print("The doubled number is \(someNumber)")
 // Output: The doubled number is 14
 
-// 9. Function Types
+// 8. Function Types
 // Functions in Swift are first-class citizens and can be assigned to variables.
 
 func sayGoodbye() {
@@ -98,7 +88,7 @@ let farewell: () -> Void = sayGoodbye
 farewell()
 // Output: Goodbye, Swift!
 
-// 10. Nested Functions
+// 9. Nested Functions
 // You can define functions within functions.
 
 func outerFunction() {

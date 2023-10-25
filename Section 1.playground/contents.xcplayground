@@ -6,6 +6,7 @@
         <page name='Section 1.3 - Arithmetic Operators'/>
         <page name='Section 1.4 - Conditionals'/>
         <page name='Section 1.5 - Loops'/>
+        <page name='Section 1.7 - Structs &amp; Classes'/>
         <page name='Secion 1.6 - Functions'/>
     </pages>
 </playground>
